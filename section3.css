@@ -1,0 +1,91 @@
+.section3{
+    background-color: rgb(8, 8, 8);
+     height: auto;
+}
+.countries-text{
+    padding: 30px;
+}
+.countries-text h2{
+    color: var(--White, #FFF);
+    font-feature-settings: 'liga' off, 'calt' off;
+    text-shadow: 0px 10px 50px rgba(12, 15, 48, 0.40);
+    font-family: "Playfair Display",serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 52px */
+}
+.slowdown-row{
+    border-bottom: 2px solid #E54545;
+    width: 100px;
+}
+.countries-text p{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: "Gilroy",sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 26px */
+    margin-top: 20px;
+}
+.countries-hover{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+.hover-columns{
+  width: 22%;
+  
+  padding:20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  
+}
+.hover-columns:hover{
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(15px);
+    transition: all 0.3s ease-in-out ;
+    transform: scale(1.1);
+    .hover-rowbefore{
+        background-color:blue;
+        border-bottom: 2px solid grey;
+        align-self: flex-end;
+        display: flex;
+    
+    }
+}
+/* .hover-columns img{
+    
+} */
+.hover-rowbefore{
+    background-color:blue;
+    border-bottom: 2px solid rgb(24, 23, 23);
+   
+
+}
+
+.hover-columns h3{
+    margin-top: 20px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: "Gilroy",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 26px */
+}
+.hover-columns p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: "Gilroy",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 18.2px */
+}

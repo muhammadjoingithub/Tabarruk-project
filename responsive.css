@@ -1,6 +1,24 @@
 @media screen and (max-width: 1200px){
-    .ul{
+    .new-aligntype{
         display: none;
+    }
+    .ul{
+        display: none !important;
+       
+    }
+    .news-boxes{
+        width: 100% !important;
+    }
+    .news-boxes1{
+        width: 100% !important;
+    }
+
+    .hover-columns{
+        width: 40% !important;
+    }
+    .religion-box{
+        width: 50% !important;
+
     }
     .about2{
         width: 100%;
@@ -44,6 +62,13 @@ width: 100%; /* 18.2px */
         width: 22%;
         
     }
+    .countries-hover{
+        width: 100%;
+  
+    }
+    .hover-columns{
+         width: 100%;
+    }
     
 
 }
@@ -53,6 +78,7 @@ width: 100%; /* 18.2px */
     /* background-color: red; */
     display: flex;
    }
+
    .two-images{
     display: flex;
    }
@@ -61,6 +87,16 @@ width: 100%; /* 18.2px */
     .info-facts4{
         width: 50%;
         
+    }
+    .news-boxes{
+        width: 100% !important;
+    }
+    .hover-columns{
+        width: 100% !important;
+    }
+    .religion-box{
+        width: 100% !important;
+
     }
     .about-us{
         justify-content: center;
@@ -146,4 +182,142 @@ height: 170.883px;
 width: 17%;
 flex: 1 0 0;
     }
+    .news-boxes1{
+        width: 100% !important;
+    }
+    .text0f-news1{
+        width: 100% !important;
+       
+    }
+    .text0f-news1 img{
+        width: 39% !important;
+       
+    }
+    .about2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .textof21 h2{
+        font-size: 19px !important;
+    }
+    .first-child1{
+        display: none;
+    }
+    .last-child1{
+        margin-top: 1px;
+    }
+    .button-div{
+        position: relative;
+        left: 55% !important;
+    }
+    .footer-section{
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+    .footer-texts2{
+        grid-column: 1;
+        grid-row: 3;
+        display: flex;
+
+        justify-content: start;
+    }
+
 }
+@media screen and (max-width: 992px){
+   .about1{
+    width: 100% !important;
+   
+   }
+   .about2{
+    width: 100% !important;
+   
+    justify-content: center;
+   }
+   .section4{
+    width: 100% !important;
+   }
+   .branches{
+    display: flex;
+    justify-content: center;
+   }
+.religion-box{
+    width: 45% !important;
+}
+.news-boxes{
+    width: 100% !important;
+}
+.news-boxes1{
+    width: 100% !important;
+}
+
+}
+@media screen and (max-width: 776px){
+    .footer-texts2{
+        grid-column: 1;
+        grid-row: 3;
+        display: flex;
+
+        justify-content: start;
+    }
+    .religion-box{
+        width: 100% !important;
+    }
+    .dropshadow{
+        position: relative;
+        left: 20%;
+    }
+    .hover-columns{
+        width: 100% !important;
+
+    }
+    .news-boxes{
+        width: 100% !important;
+    }
+    .news-boxes1{
+        width: 100% !important;
+    }
+    .first-child1{
+        display: none;
+    }
+    .textof21 h2{
+        font-size: 19px !important;
+    }
+    .text0f-news1 img{
+        width: 39% !important;
+       
+    }
+}
+@media screen and (max-width: 411px){
+    .button-div{
+        position: relative;
+        left: 47% !important;
+        margin-top: 20px;
+    }
+    .news-boxes,.news-boxes1{
+        /* background-color: red; */
+        width: 100% !important;
+    }
+    .news-items{
+        /* background-color: yellow; */
+        padding: 1px !important;
+    }
+    .dropshadow{
+       
+    position: relative;
+    left: 1px;
+    }
+}
+
+
+
+
+.menu{
+    cursor: pointer;
+}
+  
+  
+  
+ 
+  
